@@ -1,0 +1,134 @@
+.sectionSlider {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://metropolitanhost.com/themes/templatemoster/html/powar/carency/assets/img/home-1/1920x800-1.jpg");
+}
+.slaiderContainer {
+  display: flex;
+  justify-content: center;
+}
+.sectionSlaiderCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1120px;
+  height: 500px;
+}
+.sectionSlaiderCont h3 {
+  padding-top: 50px;
+}
+.sliderBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.apostraphe {
+  width: 100px;
+  height: 100px;
+  background-color: #ff7836;
+  border-bottom-left-radius: 100%;
+}
+
+.apostraphe i {
+  padding-left: 30px;
+  padding-top: 20px;
+  color: #fff;
+  font-size: 50px;
+}
+.contentBox {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  width: 100%;
+  height: 300px;
+  background-color: #fff;
+  margin: 20px;
+  padding-bottom: 10px;
+}
+.contentBox p {
+  padding: 20px;
+  color: #686a6f;
+  line-height: 30px;
+}
+
+.profile {
+  display: flex;
+  width: 400px;
+  justify-content: left;
+  align-items: center;
+  padding-left: 20px;
+}
+.profile h4 {
+  padding-top: 15px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.profile span {
+  color: #686a6f;
+}
+.star i {
+  color: #ffc107;
+}
+.images {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.slaiderButton button {
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+  background-color: #ff7836;
+}
+.slaiderButton button:hover {
+  background-color: #da4800;
+}
+
+.slaiderButton i {
+  font-size: 20px;
+  color: #fff;
+}
+@media screen and (max-width: 430px) {
+  .sectionSlider {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://metropolitanhost.com/themes/templatemoster/html/powar/carency/assets/img/home-1/1920x800-1.jpg");
+  }
+  .sectionSlider .section3-title h4{
+    font-size: 30px;
+  }
+  .sectionSlider .section3-title h3{
+    font-size: 20px;
+  }
+  .slaiderContainer {
+    display: flex;
+    justify-content: center;
+
+    width: 87%;
+  }
+
+  .contentBox p {
+    font-size: 12px;
+  }
+
+  .profile {
+    width: 350px;
+  }
+  .profile h4 {
+    padding-top: 14px;
+    font-weight: 500;
+    font-size: 20px;
+  }
+}
