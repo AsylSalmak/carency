@@ -1,0 +1,24 @@
+{
+  "name": "carency",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AsylSalmak/carency.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AsylSalmak/carency/issues"
+  },
+  "homepage": "https://github.com/AsylSalmak/carency#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
